@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+ 
 }
 
 body {
@@ -21,3 +22,127 @@ h6 {
 p {
   margin: 0;
 }
+
+
+/* Variables  */
+:root{
+  --primary-color: #FFEFD6;
+  --secondary-color: #0E5E6F;
+}
+
+
+/* Header + NavBar Styles */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0E5E6F;
+  padding-bottom: .5rem;
+ 
+}
+
+h1 {
+  padding-left: 2%;
+  justify-content: flex-start;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+nav{
+  padding-right: 5rem;
+  
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+}
+
+li a{
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: var(--primary-color);
+  text-underline-position: under;
+  word-spacing: rem;
+  margin: .33rem;
+  color: var(--primary-color);
+ 
+}
+
+
+
+
+
+/* Section Hero  */
+.hero-banner {
+  background-image: url(../images/02-hero-bg.jpg);
+  height: 7.5rem; 
+}
+
+.hero-banner{
+  display: grid;
+  justify-content: end;
+  align-items: end;
+
+}
+.hero-banner h2{
+ 
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding-left: 1rem;
+
+  margin-right: 7rem;
+  margin-bottom:1rem;
+  
+
+  ;
+}
+
+
+/* main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+ grid-template-areas: "ab abc";
+
+}
+.aboutME{
+  grid:"ab";}
+
+.aboutMeContent{
+    grid: "abc";
+}
+
+
+.pic2{
+  background-size: cover;
+  height: 100%;
+  background-image: url("../images/02-portfolio-4.jpg");
+  border-left-color: aquamarine;
+  border-left-style: solid;
+  border-left-width: 1px;
+} */
+
+
+
+
+
+
+
+/* .page-section {
+  border-color: #92a8d1;
+}
+
+.border::before{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  right: 60%;
+ 
+} */
+
+
