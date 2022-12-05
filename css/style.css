@@ -72,8 +72,6 @@ li a{
 
 
 
-
-
 /* Section Hero  */
 .hero-banner {
   background-image: url(../images/02-hero-bg.jpg);
@@ -144,5 +142,65 @@ li a{
   right: 60%;
  
 } */
+
+/* Main Section Styles  */
+
+.Grid-Style {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  
+}
+
+article{
+  height: 45rem;
+  width: 100%;
+
+}
+article div{
+
+}
+.Wk-grid{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  
+  grid-template-areas:
+  'w1 w1 w1 w1 '
+  
+  'w1 w1 w1 w1'
+  'w2 w2 w3 w3'
+  'w4 w4 w5 w5';
+  gap: 20px;
+}
+
+.pic1{
+  background-image: url("../images/02-portfolio-1.jpg");
+grid-area: w1;
+}
+
+.pic2{
+  background-image: url("../images/02-portfolio-2.jpg");
+  background-position-x: 80%;
+  background-position-y: 30%;
+  grid-area: w2;
+  
+}
+.pic3{
+  background-image: url("../images/02-portfolio-3.jpg");
+  background-position: 78%;
+    grid-area: w3;
+}
+.pic4{
+  background-image: url("../images/02-portfolio-4.jpg");
+  background-position: left;
+  grid-area: w4;
+}
+.pic5{
+  background-image: url("../images/02-run-buddy.jpg");
+  grid-area: w5;
+  background-position: top left 3%;
+}
+
+
 
 
